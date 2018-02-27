@@ -1,0 +1,4 @@
+- You can use site service "2ip.ua" and enter there the desired url to find out it's provider.
+- Or use following commands to get the same from your terminal ->
+dig slash16.org | grep "slash16" | sed "1, 10d"
+whois slash16.org | grep "Name Server"

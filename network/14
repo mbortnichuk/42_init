@@ -1,0 +1,5 @@
+- Use command host 10.51.1.253 -> unit.ua ns1 server
+- Use command host 10.51.1.81 -> 42.fr ldap-proxy server
+- Use command host 8.8.8.8 -> google.com google-public-dns-a server
+
+host 10.51.1.253

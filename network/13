@@ -1,0 +1,4 @@
+- To find out the type of server you can use following commands ->
+nslookup 10.51.1.253
+OR
+host 10.51.1.253

@@ -1,0 +1,3 @@
+- File that stores DNS records called - hosts. To open it use following command ->
+cd /etc/
+cat hosts

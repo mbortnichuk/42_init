@@ -1,0 +1,11 @@
+- To acces there file you need to follow next steps:
+-> #ssh-keygen
+-> press ENTER after entering command above.
+-> if ssh folder already exists you need overwrite it by entering 'Y' after popping question in terminal window.
+-> OR you can delete this folder directly from your terminal by executing next command ->
+-> #rm -rf /home/user/.ssh/
+-> enter random passphrase twice to confirm creating new RSA keys ("hello" e.g.).
+-> enter .ssh folder with your just created RSA keys by executing next command ->
+-> #cd ~/.ssh/ -> ls
+-> there you will see id_rsa -> which is private RSA key and id_rsa.pub -> which is public RSA key obv.
+-> you can cat them if you want to see some abrakadabra ;)

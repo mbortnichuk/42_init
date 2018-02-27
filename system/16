@@ -1,0 +1,6 @@
+-> #sudo crond (crontab)
+-> OR
+-> #sudo apt->get install at
+-> cron command is a list of commands that are scheldued to run at regular time intervals on your computer system. This command open the crontab for editing, and lets you add, remove, or modify schedlued tasks.
+-> to remove crond.pid use following instruction ->
+-> #sudo rm -rf /var/run/crond.pid

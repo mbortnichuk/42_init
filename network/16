@@ -1,0 +1,3 @@
+- To make the given address a redirection to intra.42.fr you should follow these instructions ->
+- You need to go to the file "hosts" which is int the /etc directory and do ->
+echo "46.19.122.85 intra.42.fr" >> sudo /etc/hosts
