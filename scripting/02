@@ -1,0 +1,4 @@
+-> #crontab -l > cronfile -> display the current crontab
+-> #echo "0 4 * * 0 apt-get update >> /var/log/update_script.log && spt-get upgrade /var/log/update_script.log" >> cronfile -> creating a scheduled task for this script once per week at 4 am
+-> crontab cronfile -> loading the crontab data fron cronfile.
+-> rm cronfile -> removing cronfile with scheduled task.

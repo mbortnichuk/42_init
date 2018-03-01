@@ -1,0 +1,3 @@
+sudo -i > became a root, changes "sudo command"
+md5sum -c file.md5 -> check changes
+
