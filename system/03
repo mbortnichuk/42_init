@@ -1,1 +1,2 @@
-nano /etc/hostname and change hostname
+nano /etc/hostname
+nano /etc/hosts
